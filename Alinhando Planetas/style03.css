@@ -1,0 +1,27 @@
+* {
+  background-color: gray;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: auto;
+  border: 1px solid red;
+}

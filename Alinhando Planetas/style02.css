@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  border: 1px solid red;
+  background-color: #808080;
+  gap: 1rem;
+}
+
+a {
+  display: flex;
+  background-color: purple;
+}
+
+.Lado_esquerdo {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Lado_direito {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
