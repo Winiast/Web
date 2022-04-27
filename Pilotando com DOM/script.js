@@ -47,5 +47,3 @@
 // console.log(headerID.getAttribute("id"));
 
 // console.log(headerID.removeAttribute("id"));
-
-export function hello() {}
