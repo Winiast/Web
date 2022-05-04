@@ -2,70 +2,107 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+
+body {
   width: 100%;
   height: 100%;
 }
-
 .topo {
-  width: 100%;
-  height: 100%;
-  padding: 5%;
   background-color: #290742;
-}
-
-.centro {
   width: 100%;
-  height: 30%;
-  background-color: blue;
 }
 
-.fundo {
-  width: 100%;
-  height: 40%;
-  background-color: red;
+.elementos-topo {
+  padding: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
-
-header {
-  border: 1px solid red;
-  width: 100%;
-  height: 20%;
-}
-
 navbar {
-  display: flex;
-  height: 100%;
   width: 100%;
-  flex-direction: row;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar h1 {
+
+navbar h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 30px;
-  height: 100%;
 }
 
-.navbar h3 {
-  height: 100%;
+navbar input {
+  width: 230px;
+  height: 44px;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 18px;
 }
 
 input {
-  width: 40%;
-  height: 70%;
+  background-color: #170027;
+  color: white;
+  border-radius: 7%;
 }
 
-button {
-  width: 20%;
-  height: 80%;
-}
-
-.topo-main {
+.coletion {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18%;
+  height: 100%;
+}
+.lupa {
+  padding: 7%;
+  width: 100%;
+  color: white;
+  height: 100%;
+  background-color: #9e6dc2;
+  border-radius: 7%;
 }
 
-.topo-main img {
-  width: 200px;
-  height: 200px;
+.main-topo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.texto h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #9e6dc2;
+}
+
+.texto p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+
+#veja-mais h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #9e6dc2;
+}
+
+#veja-mais {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
