@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+.topo {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  background-color: #290742;
+}
+
+.centro {
+  width: 100%;
+  height: 30%;
+  background-color: blue;
+}
+
+.fundo {
+  width: 100%;
+  height: 40%;
+  background-color: red;
+}
+
+header {
+  border: 1px solid red;
+  width: 100%;
+  height: 20%;
+}
+
+navbar {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+}
+.navbar h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  height: 100%;
+}
+
+.navbar h3 {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+input {
+  width: 40%;
+  height: 70%;
+}
+
+button {
+  width: 20%;
+  height: 80%;
+}
+
+.topo-main {
+  display: flex;
+}
+
+.topo-main img {
+  width: 200px;
+  height: 200px;
+}

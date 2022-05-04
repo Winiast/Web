@@ -22,8 +22,14 @@
 //   console.log("ate");
 // };
 
-const h2 = document.querySelector("h2");
+// const h2 = document.querySelector("h2");
 
-h2.addEventListener("click", () => {
-  console.log("teste");
-});
+// h2.addEventListener("click", () => {
+//   console.log("teste");
+// });
+
+// const input = document.querySelector("input");
+
+// input.onkeydown = function (event) {
+//   console.log(event.key);
+// };
