@@ -182,7 +182,7 @@ input {
   padding-left: 15%;
   padding-right: 15%;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .bloco {
@@ -200,4 +200,21 @@ input {
 
 .bloco:hover {
   opacity: 1;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+li:hover {
+  font-weight: 700;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  color: #b26fe2;
+}
+
+#veja-mais h2:hover {
+  color: #fbf6ff;
+  font-weight: 700;
+  padding-right: 2%;
 }
