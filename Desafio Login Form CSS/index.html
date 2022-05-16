@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -15,17 +21,32 @@
         </header>
         <div class="form">
           <form>
-            <div class="form-header">
-              <img src="./assets/images/log-in.svg" />
-              <h3>Faça seu login</h3>
-            </div>
-            <p>Entre com suas informações de cadastro</p>
+            <div class="big-cont">
+              <div class="top-head">
+                <div class="form-header">
+                  <img src="./assets/images/log-in.svg" />
+                  <h3>Faça seu login</h3>
+                </div>
+                <p>Entre com suas informações de cadastro</p>
+              </div>
 
-            <div class="form-main">
-              <div class="email">
-                <h2>E-mail</h2>
-                <img src="/assets/images/mail.svg" />
-                <input type="e-mail" placeholder="Digite seu e-mail" />
+              <div class="form-main">
+                <div class="email">
+                  <h2>E-mail</h2>
+                  <div class="cont-block">
+                    <img src="/assets/images/mail.svg" />
+                    <input type="e-mail" placeholder="Digite seu e-mail" />
+                  </div>
+                </div>
+
+                <div class="senha">
+                  <h2>Senha</h2>
+                  <div class="cont-block">
+                    <img src="/assets/images/lock.svg" />
+                    <input type="password" placeholder="Digite sua senha" />
+                    <img class="eye" src="/assets/images/eye.svg" />
+                  </div>
+                </div>
               </div>
             </div>
           </form>

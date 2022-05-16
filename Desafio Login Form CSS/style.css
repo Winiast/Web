@@ -43,7 +43,103 @@ form {
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 25%;
-  top: 50%;
+  background-color: #24221f;
+  border-radius: 10px;
+  width: 70vh;
+  height: 60vh;
+  left: 15%;
+  top: 40%;
   transform: translate(-25%, -25%);
+}
+
+.form-header {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  color: #d4ccb6;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+form p {
+  color: #afb6c2;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.top-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.form-main {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-main input {
+  height: 5vh;
+  background-color: #24221f;
+  outline: none;
+  padding-left: 10px;
+  border: none;
+  width: 40vh;
+  border-radius: 5px;
+}
+
+.form-main h2 {
+  color: #afb6c2;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cont-block {
+  display: flex;
+  padding-left: 5px;
+  flex-direction: row;
+  border-radius: 5px;
+  height: 5vh;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.senha .cont-block {
+  display: flex;
+  width: 44vh;
+  padding-left: 5px;
+  flex-direction: row;
+  border-radius: 5px;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.eye {
+  padding-right: 10px;
+  border-radius: 10px;
 }
